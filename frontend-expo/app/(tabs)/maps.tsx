@@ -10,7 +10,7 @@ import MapViewDirections from "react-native-maps-directions";
 import { Button } from "react-native-paper";
 
 export default function MapsScreen() {
-  const GOOGLE_API_KEY = "AIzaSyAkSGv5bhJwBb8C5qWX9EvPfVT_GGtHijM";
+  const GOOGLE_API_KEY = "";
   //date and events
   const [event, setEvent] = useState("");
   const [date, setDate] = useState(new Date());
