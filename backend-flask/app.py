@@ -5,7 +5,7 @@ import numpy as np
 
 app = Flask(__name__)
 CORS(app)
-
+//main route
 @app.route('/predict', methods=['POST'])
 def predict():
     data = request.get_json()
