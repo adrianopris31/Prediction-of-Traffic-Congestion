@@ -107,7 +107,7 @@ export default function MapsScreen() {
         params: {
           lat: latitude,
           lon: longitude,
-          appid: "740ad0cf87fbd350cf44027f7f713e9f",
+          appid: "",
           units: "metric",
         },
       });
